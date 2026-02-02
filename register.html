@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South County Fire Conference</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<!-- Main Content -->
+<body>
+  <main>
+
+
+    <!-- Here Section -->
+    <div class="container-fluid p-2" style="background-color: rgba(0, 0, 0, 1.0);">
+        <div class="container">
+
+
+          <!-- Main Nav --> 
+          <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid mt-5">
+              <a class="navbar-brand" href="#">South County Fire Conference</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav main-nav">
+                  <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                  <a class="nav-link" href="/index.html#about">About Us</a>
+                  <a class="nav-link" href="/index.html#schedule">Schedule</a>
+                  <a class="nav-link" href="/index.html#contact">Contact</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <a href="/register.html" class="register-cta-mobile btn btn-danger ml-2 my-sm-0">Register Now</a>
+              </div>
+
+              <!-- Desktop Menu Button -->
+              <a href="/register.html" class="register-cta-desktop btn btn-danger ml-2 my-sm-0" type="submit">Register Now</a>
+            </div>
+          </nav>
+      </div>
+
+    </div> <!-- End Hero-->
+
+    <section
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      class="mt-10"
+    >
+
+    <div class="container">
+
+      <h2 id="contact" class="mb-4">Registration Form</h2>
+
+
+      <div class="row gy-4">
+
+        <!-- Contact Details -->
+        <div class="col-lg-5">
+
+          <div class="contact-details">
+
+            <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                <h4><i class="bi bi-geo-alt flex-shrink-0"></i> Address</h4>
+                <p class="contact-address">Downey Fire Station, 135 US-91, Downey, ID 83234</p>
+              </div>
+            </div>
+
+
+            <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                <h4><i class="bi bi-geo-alt flex-shrink-0"></i> Phone</h4>
+                <p class="contact-address"><span class="fw-bold">Chance Olson: </span>435-279-3887</p>
+                <p class="contact-address"><span class="fw-bold">Mike Hanson: </span>208-241-1608</p>
+              </div>
+            </div>
+
+
+            <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                <h4><i class="bi bi-geo-alt flex-shrink-0"></i> Email</h4>
+                <p class="contact-address">1lowstress@gmail.com</p>
+              </div>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.6669748254553!2d-112.12925172388734!3d42.425505571186875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755115cad633a5f%3A0x8aa5caa8cccef089!2sDowney%20Fire%20Department!5e0!3m2!1sen!2sus!4v1739771829550!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
+        </div>
+
+
+        <div class="col-lg-7">
+
+          <!-- Contact Form -->
+          <form class="contact-form" name="registration-form" data-netlify="true" action="POST">
+            <div class="row gy-4">
+
+
+              <!-- Firstname -->
+              <div class="col-md-6">
+                <label class="form-label" for="firstname-field">First Name</label>
+                <input required type="text" name="name" id="firstname-field" class="form-control">
+              </div>
+
+              <!-- Lastname -->
+              <div class="col-md-6">
+                <label class="form-label" for="lastname-field">Last Name</label>
+                <input required type="text" name="name" id="lastname-field" class="form-control">
+              </div>
+
+              <!-- Email -->
+              <div class="col-md-6">
+                <label class="form-label" for="email-field">Email</label>
+                <input required type="email" name="email" id="email-field" class="form-control">
+              </div>
+
+              <!-- Email -->
+              <div class="col-md-6">
+                <label class="form-label" for="phone-field">Phone Number</label>
+                <input required type="tel" name="phone" id="phone-field" class="form-control">
+              </div>
+
+              <!-- Subject -->
+              <div class="col-md-12">
+                <label class="form-label" for="station">What station are you from?</label>
+                <input required type="text" name="subject" id="station-field" class="form-control">
+              </div>
+
+              <!-- Essential Classes -->
+              <div class="col-md-12">
+                <p>Enrolling in Essential Parts Course?</p>
+                <div class="form-check">
+                  <input value="yes" required class="form-check-input" type="radio" name="essentialEnrollment" id="essentialEnrollment">
+                  <label class="form-check-label" for="essentialEnrollment">
+                    Yes
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input value="no" required class="form-check-input" type="radio" name="essentialEnrollment" id="essentialEnrollment">
+                  <label class="form-check-label" for="essentialEnrollment">
+                    No
+                  </label>
+                </div>
+              </div>
+
+              <!-- Essential Classes -->
+              <div class="col-md-12">
+                <p>Select which H.O.T. Days Course</p>
+                <div class="form-check">
+                  <input value="fireground-ops" required class="form-check-input" type="radio" name="hotDaysRadioGroup" id="hotDaysRadioGroup">
+                  <label class="form-check-label" for="hotDaysRadioGroup">
+                    Fireground Operations
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input value="heavy-extrication" required class="form-check-input" type="radio" name="hotDaysRadioGroup" id="hotDaysRadioGroup">
+                  <label class="form-check-label" for="hotDaysRadioGroup">
+                    Heavy Extrication
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input value="neither" required class="form-check-input" type="radio" name="hotDaysRadioGroup" id="hotDaysRadioGroup">
+                  <label class="form-check-label" for="hotDaysRadioGroup">
+                    Neither
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-md-12 text-center">
+
+                <!-- <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div> -->
+                <button class="btn btn-danger " type="submit">Send Message</button>
+              </div>
+  
+            </div>
+
+          </form>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="pt-5 pb-5 mt-5">
+    <div class="container-fluid">
+    <div class="container">
+
+      <!-- Main Nav --> 
+      <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid p-3">
+          <a class="navbar-brand" href="#">South County Fire Conference</a>
+          <div class="justify-content-end">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about">About Us</a>
+              <a class="nav-link" href="#schedule">Schedule</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      window.addEventListener('load', () => {
+          AOS.init();
+      });
+    </script>
+</body>
+</html>

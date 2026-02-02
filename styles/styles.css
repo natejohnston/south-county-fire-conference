@@ -1,0 +1,161 @@
+body {
+    font-size: 16px;
+    color: #111;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.background-image {
+    background-image: url(/img/hero.jpg);
+    height: 100vh;
+
+}
+
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.main-nav {
+    font-size: 20px;
+}
+
+.hero-section {
+    height: calc(100vh - 20vh);
+}
+
+.mt-10 {
+    margin-top: 6em;
+}
+
+.class-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.class-container:hover {
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.1);
+}
+
+
+.class-title {
+    font-weight: 700;
+}
+
+.details p {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.hot-day-container {
+    border: 1px solid #dc3545;
+}
+
+footer {
+    background-color: #111;
+}
+
+.contact-form {
+    height: 100%;
+    padding: 32px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    height: 100%;
+}
+
+.contact-address {
+    font-size: 16px;
+}
+
+.info-item {
+    margin-bottom: 40px;
+}
+
+.register-cta-desktop {
+    margin-left: 1em;
+}
+
+.register-cta-mobile {
+    display: none;
+}
+
+
+@media (max-width: 991.98px) { 
+
+    .navbar-dark .navbar-brand {
+        font-size: 1em;
+    }
+
+    .register-cta-desktop {
+        display: none;
+    }
+
+    .register-cta-mobile {
+        display: block;
+        margin-top: 0.5em;
+    }
+    
+
+    h1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    h5 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    /* .main-nav {
+        font-size: 16px;
+    } */
+ }

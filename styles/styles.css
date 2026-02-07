@@ -242,6 +242,23 @@ footer {
     align-items: center;
 }
 
+.flex-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.125rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.flex-list ul {
+    flex: 1;
+}
+
+strong {
+    color: #CE2929;
+}
+
 
 @media (max-width: 1400px ) {
 
@@ -271,6 +288,31 @@ footer {
 
 @media (max-width: 999px) { 
 
+    .register-cta-mobile {
+        background-color: #CE2929;
+        color: #fff;
+        font-family: 'Firehouse';
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        border: 4px solid #CE2929;
+    }
+
+    .flex-list {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .flex-list ul {
+        margin-bottom: 0px;
+    }
+
+    .class-container_new {
+        padding: 1.25rem;
+    }
+
+    .main_class-container {
+        padding: 1.25rem;
+    }
         
     .container {
         max-width: 960px;
